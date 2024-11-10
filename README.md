@@ -31,27 +31,36 @@ Outbound rules: All traffic
 
 #### Deployment Steps
 1. Clone the Repository:
+
 `git clone https://github.com/MaayanAimelak28/Canvas-Lab-172--Challenge--Linux-EC2-Instance.git`
+
 `cd canvas_terraform`
 
 2. Configure AWS Credentials:
+
 `export AWS_ACCESS_KEY_ID="your-access-key"`
+
 `export AWS_SECRET_ACCESS_KEY="your-secret-key"`
 
 3. Initialize and Apply Terraform:
+
 `terraform init`
+
 `terraform plan    # Review the changes`
+
 `terraform apply   # Type 'yes' when prompted`
 
 4. Verify Deployment:
 * Once deployment is complete, Terraform will output the public IP.
 * Access the web server:
-Main page: http://<public-ip>
-Projects page: http://<public-ip>/projects.html
+- **Main page**: http://<public-ip>
+- **Projects page**: http://<public-ip>/projects.html
+  
+![webserver](https://github.com/user-attachments/assets/e8fc733a-e8cf-4cbf-b7ce-d384c9a08524)
 
-![webserver](https://github.com/user-attachments/assets/376aa26f-6bef-4a73-a72c-db77967bd4a2)
 
 5.Clean Up:
+
 `terraform destroy  # Type 'yes' when prompted`
 
 #### Troubleshooting
