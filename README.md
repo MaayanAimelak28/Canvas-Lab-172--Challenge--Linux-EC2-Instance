@@ -5,7 +5,9 @@ This lab demonstrates how to deploy a simple web application on an Amazon Linux 
 - **AWS Account**: Active AWS account with appropriate permissions
 - **AWS CLI**: Configured with credentials:
 `aws configure`
+
 **Terraform**: Version 1.0 or later installed and added to PATH
+  
 **Git**: For cloning the repository
   
 #### Objectives
