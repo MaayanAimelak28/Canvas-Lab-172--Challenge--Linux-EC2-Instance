@@ -54,9 +54,14 @@ Outbound rules: All traffic
 * Once deployment is complete, Terraform will output the public IP.
 * Access the web server:
 Main page: `http://<public-ip>`
+
 ![terraform](https://github.com/user-attachments/assets/77bd00d1-3bee-4956-a71f-e0d2d6e35752)
+
 Projects page: `http://<public-ip>/projects.html`
+
 ![webserver](https://github.com/user-attachments/assets/77574e01-cf0b-43af-995c-dbf1ea32870d)
+
+
 
 5.Clean Up:
 
