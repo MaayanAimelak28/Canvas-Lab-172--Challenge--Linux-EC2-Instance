@@ -37,7 +37,8 @@ Create a file named projects.html in the /var/www/html directory with the follow
 <p>EC2 Instance Challenge Lab</p>
 </body>
 </html>`
-Replace `[Your Name]` with your actual name.
+
+Replace [Your Name] with your actual name.
 
 5. Verify and Capture Output
 Access http://[your-instance-public-ip]/projects.html in a web browser to confirm the setup.
