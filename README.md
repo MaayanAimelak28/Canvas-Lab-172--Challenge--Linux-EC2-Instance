@@ -30,13 +30,7 @@ In the user_data section of the Terraform configuration, install and start the A
 After launching the instance, use EC2 Instance Connect to access the server.
 Create a file named projects.html in the /var/www/html directory with the following content:
 
-`<!DOCTYPE html>
-<html>
-<body>
-<h1>[Your Name]'s re/Start Project Work</h1>
-<p>EC2 Instance Challenge Lab</p>
-</body>
-</html>`
+`<!DOCTYPE html><html><body><h1>[Your Name]'s re/Start Project Work</h1><p>EC2 Instance Challenge Lab</p></body></html>`
 
 Replace [Your Name] with your actual name.
 
